@@ -4,11 +4,11 @@ ENV GODOT_VERSION="4.0"
 
 # Example values: stable, beta3, rc1, alpha2, etc.
 # Also change the SUBDIR property when NOT using stable
-ENV RELEASE_NAME="beta17"
+ENV RELEASE_NAME="rc1"
 
 # This is only needed for non-stable builds (alpha, beta, RC)
 # Use an empty string "" when the RELEASE_NAME is "stable"
-ENV SUBDIR="/beta17"
+ENV SUBDIR="/rc1"
 
 ENV GODOT_PLATFORM="linux_x86_64"
 
