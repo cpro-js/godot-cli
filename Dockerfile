@@ -1,14 +1,14 @@
 FROM ubuntu:focal AS godot
 # see https://downloads.tuxfamily.org/godotengine/
-ENV GODOT_VERSION="4.0"
+ENV GODOT_VERSION="4.0.1"
 
 # Example values: stable, beta3, rc1, alpha2, etc.
 # Also change the SUBDIR property when NOT using stable
-ENV RELEASE_NAME="stable"
+ENV RELEASE_NAME="rc1"
 
 # This is only needed for non-stable builds (alpha, beta, RC)
 # Use an empty string "" when the RELEASE_NAME is "stable"
-ENV SUBDIR=""
+ENV SUBDIR="/rc1"
 
 ENV GODOT_PLATFORM="linux_x86_64"
 
