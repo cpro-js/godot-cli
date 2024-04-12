@@ -1,6 +1,6 @@
 FROM ubuntu:focal AS godot
 # see https://downloads.tuxfamily.org/godotengine/
-ENV GODOT_VERSION="4.1.2"
+ENV GODOT_VERSION="4.1.3"
 
 # Example values: stable, beta3, rc1, alpha2, etc.
 # Also change the SUBDIR property when NOT using stable
